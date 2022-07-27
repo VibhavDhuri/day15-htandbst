@@ -1,4 +1,3 @@
-
 class Node {
 	int data;
 	Node left;
@@ -76,5 +75,4 @@ public class BinarySearchTree {
 			search(root.right, data, root);
 		}
 	}
-
 }
