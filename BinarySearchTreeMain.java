@@ -20,6 +20,8 @@ public class BinarySearchTreeMain {
 
 		System.out.println("Display Node");
 		binaryTree.traverseTree(node);
+		System.out.println();
+		BinarySearchTree.search(binaryTree.root, 63, null);
 	}
 
 }
