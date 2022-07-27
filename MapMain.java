@@ -28,6 +28,11 @@ public class MapMain {
 			int frequency = map.get(word);
 			System.out.println("Frequency of " + word + " : " + frequency);
 		}
+
+		System.out.println();
+		System.out.println("Deleting Avoidable : ");
+		map.remove("avoidable");
+		map.display();
 	}
 
 }
